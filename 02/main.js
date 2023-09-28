@@ -1,7 +1,7 @@
 class Calculadora {
     constructor() {
         //inicializando o visor com valor 0
-        this.valor
+        this.valor = '0'
     }
     //método para adicionar número
     adicionarNumero(numero) {
@@ -15,7 +15,7 @@ class Calculadora {
         }
         //atualiza o visor
         this.atualizarVisor()
-
+    }
         adicionarOperacao(operacao) {
             if (
                 this.valor.slice(-1) === '+' ||
@@ -32,5 +32,28 @@ class Calculadora {
             //atualiza o visor
             this.atualizarVisor()
         }
-    }
+        limpar() {
+            //método para limpar
+            this.valor = '0'
+            this.atualizarVisor()
+        }
+
+
+        resultado() {
+            try {
+                this.valor = eval(this.valor).toString()
+            } catch (e) {
+                this.valor = 'Erro'
+         
+          }
+            this.atualizarVisor() 
+        }
+        
+        atualizarVisor(){
+            document.getElementById('visor').value = this.valor
+        }
+
+    
+
 }
+let calculadora = new Calculadora()
