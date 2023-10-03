@@ -1,0 +1,83 @@
+@font-face {
+    font-family: Inclusive;
+    src: url(font/InclusiveSans-Regular.ttf);
+}
+
+body{
+    background-image: url(fundo.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color: black;
+}
+
+h2{
+   color: white;
+    font-size: 60px;
+    margin-left: 500px;
+    font-family: Inclusive;
+}
+
+.teclado{
+    margin-left:500px ;
+   margin-top: 20px;
+
+}
+
+input{
+    background-color: white;
+    margin-top: 100px;
+    margin-left: 500px;
+    width: 373px;
+    height: 60px;
+    border-radius: 10px;
+    box-shadow: 10px 10px 10px rgba(112, 37, 147, 0.745);
+}
+.numero, .operacao{
+    width: 90px;
+    height: 48px;
+    box-shadow: 10px 10px 10px  rgba(126, 76, 179, 0.793);
+ border-radius: 6px;
+}
+
+
+button:hover{
+    background-color: rgb(178, 96, 216);
+}
+
+#divisao{
+    background-color: rgb(164, 222, 237);
+}
+
+#divisao:hover{
+    background-color: rgb(62, 198, 233);;
+}
+#multiplicar{
+    background-color: rgb(233, 163, 184);
+}
+#multiplicar:hover{
+    background-color:  rgb(211, 50, 99);;
+}
+#mais {
+    background-color: rgb(250, 244, 139) ;
+}
+#mais:hover{
+    background-color:  rgb(241, 232, 57) ;;
+}
+#menos{
+    background-color: rgb(113, 194, 113);
+}
+#menos:hover{
+    background-color: rgb(59, 198, 59);;
+}
+#apagar{
+    background-color: rgb(205, 127, 220);
+}
+#apagar:hover{
+    background-color:  rgb(174, 46, 200);;
+}
+#igual{
+    background-color: rgb(188, 154, 87);
+}
+#igual:hover{
+    background-color:  rgb(183, 128, 19);
+};
