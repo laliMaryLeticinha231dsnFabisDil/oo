@@ -38,6 +38,9 @@ input{
     box-shadow: 10px 10px 10px  rgba(126, 76, 179, 0.793);
  border-radius: 6px;
 }
+.calculadora{
+    background-color: aquamarine;
+}
 
 
 button:hover{
