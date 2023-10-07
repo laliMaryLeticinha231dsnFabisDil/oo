@@ -4,16 +4,16 @@
 }
 
 body{
-    background-image: url(fundo.png);
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-color: black;
+    background-color: rgb(255, 255, 255);
+    align-items: center;
+    justify-content: center;
+    text-align: center;
 }
 
 h2{
-   color: white;
+   color: rgb(0, 0, 0);
     font-size: 60px;
-    margin-left: 500px;
+    text-align: center;
     font-family: Inclusive;
 }
 
@@ -23,13 +23,14 @@ h2{
 
 }
 
-input{
-    background-color: white;
-    margin-top: 100px;
-    margin-left: 500px;
-    width: 373px;
+#visor{
+    background-color: rgb(0, 0, 0);
+    color: white;
+    margin-top: 50px;
+    margin-left: -40px;
+    width: 430px;
     height: 60px;
-    border-radius: 10px;
+    border-radius: 20px;
     box-shadow: 10px 10px 10px rgba(112, 37, 147, 0.745);
 }
 .numero, .operacao{
@@ -38,8 +39,23 @@ input{
     box-shadow: 10px 10px 10px  rgba(126, 76, 179, 0.793);
  border-radius: 6px;
 }
-.calculadora{
-    background-color: aquamarine;
+.calculadora-geral{
+    background-color: rgb(0, 0, 0);
+    width: 430px;
+    height: 270px;
+    align-items: center;
+    border-radius: 20px;
+}
+
+
+
+.numero, .operacao{
+    align-items: center;
+    justify-content: center;
+    margin-top: 10PX;
+}
+button{
+    margin-top: 120px;
 }
 
 
